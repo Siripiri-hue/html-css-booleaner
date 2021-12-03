@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main, footer {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+section {
+    margin-bottom: 10px;
+}
+
+header {
+    background-color:  rgb(0, 162, 255);
+    background-image: url("img/pattern.png");
+    background-size: auto 200px;
+    margin: 0 auto;
+}
+
+#title {
+    color: white;
+    font-size: 50px;
+}
+
+.logo {
+    padding: 30px 5px 5px 0px;
+    width: 300px;
+    margin-left: 10%;
+
+}
+
+#author {
+    color: blue;
+}
+
+#titolo {
+    margin-bottom: 10px;
+}
+
+.gray {
+    color: grey;
+}
+
+.little {
+    font-size: 12px;
+}
+
+.highlighted {
+    background-color: yellow;
+}
+
+footer {
+    font-weight: 600;
+    font-size: 20px;
+    color: lightgray;
+}
+
+.photofooter {
+    height: 207px;
+    width: 311px;
+    font-size: 20px;
+    color: white;
+    font-weight: 800;
+    background-size: cover;
+    margin-bottom: 7px;
+    padding: 10px;
+}
+
+.img-one {
+    background-image: url(img/monitor.jpg);
+}
+
+.img-two {
+    background-image: url(img/graph.jpg);
+} 
+
+table {
+    border-collapse: collapse;
+}
+
+th {
+    color: white;
+    background-color:blue;
+}
+
+.lightblu {
+    background-color:lightblue;   
+}
