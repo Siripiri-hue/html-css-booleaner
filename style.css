@@ -1,55 +1,74 @@
-*{
+/* *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+} */
 
-main, footer {
+/* main, footer {
     margin-left: 10%;
     margin-right: 10%;
+} */
+header {
+    background-color:  rgb(99, 197, 253);
+    background-image: url(img/pattern.png);
+    background-size: auto 200px;
+    margin: 0 auto;
+}
+
+.logo {
+    padding: 30px 5px 5px 0px;
+    width: 300px;
 }
 
 section {
     margin-bottom: 10px;
 }
 
-header {
-    background-color:  rgb(0, 162, 255);
-    background-image: url("img/pattern.png");
-    background-size: auto 200px;
-    margin: 0 auto;
-}
+/* h1 {
+    margin-top: 5px;
+} */
 
-#title {
-    color: white;
-    font-size: 50px;
-}
-
-.logo {
-    padding: 30px 5px 5px 0px;
-    width: 300px;
-    margin-left: 10%;
-
-}
+/* #titolo {
+    margin-bottom: 5px;
+} */
 
 #author {
-    color: blue;
+    color: rgb(0, 129, 250);
 }
 
-#titolo {
-    margin-bottom: 10px;
-}
-
-.gray {
-    color: grey;
+.subtitle {
+    font-size: 15px;
+    font-weight: 700;
 }
 
 .little {
     font-size: 12px;
 }
 
+.gray {
+    color: grey;
+}
+
 .highlighted {
     background-color: yellow;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th {
+    color: white;
+    background-color:blue;
+    white-space: nowrap;
+}
+
+tr td, thead th {
+    padding-right: 50px;
+}
+
+.lightblu {
+    background-color:lightblue;   
 }
 
 footer {
@@ -75,17 +94,4 @@ footer {
 
 .img-two {
     background-image: url(img/graph.jpg);
-} 
-
-table {
-    border-collapse: collapse;
-}
-
-th {
-    color: white;
-    background-color:blue;
-}
-
-.lightblu {
-    background-color:lightblue;   
 }
