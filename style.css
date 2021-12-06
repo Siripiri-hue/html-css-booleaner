@@ -4,6 +4,11 @@
     font-family: 'Vollkorn', serif;
 }
 
+body {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
 header {
     background-color:  rgb(99, 197, 253);
     background-image: url(img/pattern.png);
